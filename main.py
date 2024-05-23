@@ -36,3 +36,7 @@ elif player == "scissor":
         print("player: ", player)
         print("computer: ", computer)
         print("You lose and computer wins!!Better luck next time")
+
+play_again = input("Play again? (yes/no): ").lower()
+if play_again != "yes":
+    print("Bye!")
